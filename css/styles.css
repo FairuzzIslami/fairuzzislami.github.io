@@ -1,0 +1,345 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+}
+.header{
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f1113;
+    color: #eaeaea;
+}
+.logo{
+    display: flex;
+    padding: 5px;
+    font-weight: bolder;
+}
+.logo h3{
+    transition: all .5s ease;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.logo h3:hover{
+    /* transform: rotate(10deg); */
+    color: #820300;
+    text-decoration: underline;
+}
+.logo img{
+    background-size: cover;
+    padding-top: 5px;
+    width: 50px;
+    transition: all .5s ease;
+}
+.logo img:hover{
+    opacity: 0.5;
+}
+.nav{
+    align-self: center;
+}
+.nav a{
+    color: #eaeaea;
+    text-decoration: none;
+    transition: all .6s;
+}
+.nav li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+.nav li{
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all .5s ease;
+}
+.nav a:hover{
+    /* transform: rotate(10deg); */
+    color: #820300;
+    text-decoration: underline;
+}
+.btn{
+    border-radius:8px;
+    font-size: 12px;
+    padding: 5px;
+    color: #eaeaea;
+    background-color: #7D0A0A;
+    border: none;
+}
+.home{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    display: flex;
+    background-color: #0f1113;
+    color: #eaeaea;
+}
+.home-img img{
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+    border-radius: 800px;
+    border: #eaeaea 5px solid;
+}
+.home-description{
+    padding: 80px;
+}
+.isi2{
+    font-size:12px;
+    color: #fcfc;
+}
+.isi{
+    color: #000;
+    font-weight: bold;
+    font-size:30px ;
+}
+.judul{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #eaeaea;
+}
+span{
+    color: #820300;
+}
+.button{
+    display: inline-block;
+}
+.btn-home{
+    margin-top: 25px;
+    padding: 10px;
+    width: 100px;
+    color: #eaeaea;
+    background-color: #7D0A0A;
+    margin: 20px;
+    border: none;
+    padding-top: -5px;
+    border-radius: 10px;
+    font-size: 13px;
+    transition: all .5s;
+}
+.btn-home:hover{
+    background-color: #170dce;
+}
+.home-icon{
+    display: inline-block;
+}
+.home-icon a{
+    color: #eaeaea;
+}
+.home-icon ion-icon{
+    font-size: 30px;
+    padding-top: 10px;
+    transition: all .5s;
+}
+.home-icon a:hover{
+    color: rgb(16, 64, 221);
+}
+.hero{
+    background-image: url(../image/Fairuz.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.hero img{
+    width: 400px;
+    height: 500px;
+}
+.about{
+    display: flex;
+    background-color: #ffff;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 30px;
+}
+.hero img{
+    width: 300px;
+    height: 400px;
+    border-radius: 40px;
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+.hero img:hover{
+    filter: grayscale(0%);
+}
+.paralax{
+    padding: 20px;
+}
+.about-ttl{
+    font-weight: bolder;
+}
+.about-ttl h1{
+    font-size: 45px;
+}
+.about-ttl h2{
+    font-size: 35px;
+}
+.about-isi{
+    padding: 10px;
+    color: #0c0e0f;
+    font-size: 16px;
+}
+.card-item{
+    text-align: center;
+    padding: 10px;
+    margin: 35px;
+    width: 40%;
+    background-color: #191919;
+    border-radius: 15px;
+    transition: all .5s;
+}
+.card-item:hover{
+    background-color: #6a0a16;
+}
+.card-item img{
+    padding-top: 30px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.skil{
+    padding: 12px 0;
+    background-color: #101010;
+    margin-top: 50px;
+    height: 550px;
+}
+.card{
+    display: flex;
+}
+.card-ttl{
+    padding: 10px;
+    font-size: 25px;
+    margin: 25px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.card-ttl h1{
+    transition: all .5s;
+}
+.card-ttl h1:hover{
+    color: #6a0a16;
+    text-decoration: underline;
+}
+.card-item h3{
+    color: white;
+}
+.card-item p{
+    color: #fcfc;
+    font-size: 14px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 60px;
+    margin-left: 100px
+}
+.contact-ttl{
+    font-size: 30px;
+    color: #101010;
+    font-weight: bolder;
+}
+.contact-isi{
+    padding-top: 5px;
+    font-size: bold;
+    padding-bottom: 40px;
+    color: rgba(74, 9, 4, 0.8);
+}
+input,textarea{
+    border: none;
+    outline: none;
+    background-color: #191919;
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #eaeaea;
+    margin: 5px;
+    padding: 20px;
+}
+.btn-form{
+    margin-top: 25px;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    color: #eaeaea;
+    background-color: #7D0A0A;
+    margin: 20px;
+    border: none;
+    padding-top: -5px;
+    border-radius: 10px;
+    font-size: 13px;
+    transition: all .5s;
+}
+.btn-form:hover{
+    background-color: #170dce;
+}
+.contact-hero{
+    margin: 30px;
+    margin-left: 90px;
+}
+.contact-hero img{
+    height: auto;
+    border-radius: 40px;
+    transition: all .5s;
+    width: 550px;
+}
+.contact-hero img:hover{
+    filter: grayscale(100%);
+}
+.footer{
+    text-align: center;
+    display: flex;
+    background-color: #191919;
+    justify-content: space-evenly;
+}
+.footer-isi{
+    margin-top: 60px;
+}
+.footer-isi h1{
+    transition: all .5s;
+    color: #eaeaea;
+    font-size: 40px;
+    cursor: pointer;
+}
+.footer-isi h1:hover{
+    color: #6a0a16;
+}
+.footer-isi p{
+    padding-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #ffff;
+    transition: all .5s;
+}
+.footer-isi p:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.footer ion-icon{
+    padding-top: 5px;
+    color: #eaeaea;
+    font-size: 20px;
+    transition: all .5s;
+}
+.footer-isi.social-media a{
+    text-decoration: none;
+    display: flex;
+    padding-left: 8px;
+}
+.footer-isi.social-media ion-icon{
+  padding: 8px;
+}
+.footer-isi.social-media p{
+    border-left: 4px solid rgb(238, 236, 236);
+    padding: 8px;
+}
+.footer-isi.social-media ion-icon:hover{
+    color: tomato;
+}
+.cpy{
+    text-align: center;
+    font-weight: bolder;
+    
+}
