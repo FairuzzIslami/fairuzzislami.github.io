@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
 }
 .header{
+    padding: 0 12px;
     display: flex;
     justify-content: space-between;
     background-color: #0f1113;
@@ -36,6 +37,9 @@
 .logo img:hover{
     opacity: 0.5;
 }
+.nav{
+    align-self: center;
+}
 .nav a{
     color: #eaeaea;
     text-decoration: none;
@@ -44,7 +48,6 @@
 .nav li{
     display: inline-block;
     padding: 5px;
-    padding-top: 30px;
     font-size: 20px;
 }
 .nav li{
@@ -67,12 +70,11 @@
 }
 .home{
     justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
     display: flex;
     background-color: #0f1113;
     color: #eaeaea;
-}
-.home-img{
-    padding-top: 50px;
 }
 .home-img img{
     width: 300px;
@@ -82,9 +84,7 @@
     border: #eaeaea 5px solid;
 }
 .home-description{
-    padding: 40px;
-    margin-right:80px;
-    margin-top: 150px;
+    padding: 80px;
 }
 .isi2{
     font-size:12px;
@@ -139,6 +139,7 @@ span{
 .hero{
     background-image: url(../image/Fairuz.jpg);
     background-size: cover;
+    margin: auto;
 }
 .hero img{
     width: 400px;
@@ -197,6 +198,7 @@ span{
     background-size: cover;
 }
 .skil{
+    padding: 12px 0;
     background-color: #101010;
     margin-top: 50px;
     height: 550px;
@@ -229,6 +231,7 @@ span{
 }
 .contact{
     display: flex;
+    justify-content: center;
     margin: 50px;
     margin-top: 60px;
     margin-left: 100px
@@ -286,7 +289,6 @@ input,textarea{
     filter: grayscale(100%);
 }
 .footer{
-    height: 260px;
     text-align: center;
     display: flex;
     background-color: #191919;
@@ -321,7 +323,19 @@ input,textarea{
     font-size: 20px;
     transition: all .5s;
 }
-.footer-isi ion-icon:hover{
+.footer-isi.social-media a{
+    text-decoration: none;
+    display: flex;
+    padding-left: 8px;
+}
+.footer-isi.social-media ion-icon{
+  padding: 8px;
+}
+.footer-isi.social-media p{
+    border-left: 4px solid black;
+    padding: 8px;
+}
+.footer-isi.social-media ion-icon:hover{
     color: tomato;
 }
 .cpy{
